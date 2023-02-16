@@ -10,7 +10,11 @@ module.exports = {
       'dark-me':'rgb(31 41 55)',
       'semidark-me':'rgb(75 85 99)',
       'blue-me': 'rgb(59 130 246)',
-    }},
+    },
+    screens: {
+      'xsm': {'min': '310px','max': '640px'},
+    }
+  },
   },
   plugins: [],
 }
